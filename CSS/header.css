@@ -1,0 +1,162 @@
+.header{
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(230, 230, 230);
+
+    z-index: 1000;
+}
+
+.left{
+    /* background-color: lightblue; */
+    /* width: 150px; */
+    display: flex;
+    align-items: center;
+}
+
+.ham{
+    height: 40px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.you{
+    height: 55px;
+}
+
+.middle{
+    /* background-color: lightpink; */
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar{
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192); */
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+
+.search-bar::placeholder{
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.sear-b{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+    margin-right: 10px;
+}
+
+.sear-b, .mic-b, .right1, .noti-num, .right3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sear-b .tool, .mic-b .tool, .right1 .tool, 
+.noti-num .tool, .right3 .tool{
+    position: absolute;
+    background-color: grey;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 12px;
+    border-radius: 2px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.sear-b:hover .tool, .mic-b:hover .tool, .right1:hover .tool,
+.noti-num:hover .tool, .right3:hover .tool{
+    opacity: 1;
+}
+
+.sear{
+    height: 26px;
+}
+
+.mic-b{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(248, 248, 248);
+}
+
+.mic{
+    height: 20px;
+}
+
+.right{
+    /* background-color: lightblue;  */
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.cr{
+    height: 44px;
+}
+
+.noti{
+    height: 24px;
+    margin-right: 5px;
+}
+
+.noti-num{
+    position: relative;
+}
+
+.noti-cnt{
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background-color: red;
+    color: white;
+    font-family: Roboto;
+    font-size: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 30px;
+}
+
+.prof{
+    height: 32px;
+    border-radius: 18px;
+}
