@@ -9,12 +9,13 @@
 }
 
 .sidebar-link{
-    height: 80px;
+    height: 76px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     cursor: pointer;
+    border-radius: 16px;
 }
 
 .sidebar-link:hover{
@@ -28,6 +29,5 @@
 
 .sidebar-link div{
     font-size: 10px;
-    font-family: Roboto;
     font-weight: 600;
 }
