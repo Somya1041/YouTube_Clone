@@ -1,5 +1,5 @@
 .header{
-    height: 55px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
 
@@ -23,13 +23,13 @@
 }
 
 .ham{
-    height: 40px;
+    height: 34px;
     margin-left: 24px;
-    margin-right: 24px;
+    margin-right: 16px;
 }
 
 .you{
-    height: 55px;
+    height: 60px;
 }
 
 .middle{
@@ -37,7 +37,7 @@
     flex: 1;
     margin-left: 70px;
     margin-right: 35px;
-    max-width: 500px;
+    max-width: 635px;
     display: flex;
     align-items: center;
 }
@@ -45,7 +45,7 @@
 .search-bar{
     flex: 1;
     height: 36px;
-    padding-left: 10px;
+    padding-left: 12px;
     font-size: 16px;
     /* border-width: 1px;
     border-style: solid;
@@ -54,6 +54,7 @@
     border-radius: 2px;
     box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
     width: 0;
+    border-radius: 20px;
 }
 
 .search-bar::placeholder{
@@ -70,6 +71,7 @@
     border-color: rgb(192, 192, 192);
     margin-left: -1px;
     margin-right: 10px;
+    border-radius: 20px;
 }
 
 .sear-b, .mic-b, .right1, .noti-num, .right3{
@@ -112,29 +114,31 @@
     border-radius: 20px;
     border: none;
     background-color: rgb(248, 248, 248);
+    margin-left: 6px;
 }
 
 .mic{
-    height: 20px;
+    height: 22px;
 }
 
 .right{
     /* background-color: lightblue;  */
-    width: 150px;
+    width: 160px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-right: 20px;
+    margin-right: 30px;
     flex-shrink: 0;
 }
 
 .cr{
     height: 44px;
+    margin-right: 10px;
 }
 
 .noti{
     height: 24px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .noti-num{
@@ -143,8 +147,8 @@
 
 .noti-cnt{
     position: absolute;
-    top: -2px;
-    right: -2px;
+    top: -1px;
+    right: 3px;
     background-color: red;
     color: white;
     font-family: Roboto;
@@ -157,6 +161,7 @@
 }
 
 .prof{
-    height: 32px;
+    height: 36px;
     border-radius: 18px;
+    margin-left: 16px;
 }
