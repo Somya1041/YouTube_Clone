@@ -8,9 +8,6 @@
     left: 0;
     right: 0;
     background-color: white;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(230, 230, 230);
 
     z-index: 1000;
 }
@@ -58,7 +55,7 @@
 }
 
 .search-bar::placeholder{
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 16px;
 }
 
@@ -126,7 +123,7 @@
     width: 160px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-right: 30px;
     flex-shrink: 0;
 }
@@ -151,7 +148,6 @@
     right: 3px;
     background-color: red;
     color: white;
-    font-family: Roboto;
     font-size: 8px;
     padding-left: 5px;
     padding-right: 5px;
